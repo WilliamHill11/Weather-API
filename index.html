@@ -5,21 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather API</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap"
+      rel="stylesheet"
+    />
     <script src="script.js" defer></script>
   </head>
   <body>
     <form action="">
       <input type="search" id="search" placeholder="City Name" />
       <label for="search"></label>
+      <input type="submit" value="Search" id="searchBtn" />
     </form>
     <div class="weatherContainer">
-      <p class="condition"></p>
-      <h2 class="city"></h2>
-      <h2 class="temp"></h2>
+      <div class="header">
+        <p class="condition">CRAZY SUNNY</p>
+        <h2 class="city">CAMO CITY OF THE HIDDEN LEAF, HEAVEN</h2>
+      </div>
       <div class="description">
-        <p class="detail one"></p>
-        <p class="detail two"></p>
-        <p class="detail three"></p>
+        <h2 class="temp">21<span>&#8451;</span></h2>
+        <div class="border">
+          <p class="detail one">
+            FEELS LIKE: 35<span class="celsius">&#8451;</span>
+          </p>
+          <p class="detail two">WIND: 12 km/h</p>
+          <p class="detail three">HUMIDITY: 23%</p>
+        </div>
       </div>
     </div>
   </body>
