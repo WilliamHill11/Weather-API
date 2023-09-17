@@ -9,7 +9,7 @@ searchBtn.addEventListener('click', (e) => {
 });
 
 function fetchData(search) {
-  const apiUrl = `https://api.weatherapi.com/v1/current.json?key=43433c1a5764250bfd30625232307&q=${encodeURIComponent(
+  const apiUrl = `https://api.weatherapi.com/v1/current.json?key=403433c1a5764250bfd30625232307&q=${encodeURIComponent(
     search,
   )}`;
 
